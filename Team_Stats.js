@@ -15,12 +15,12 @@ const team = {
         {opponent: "Bears", teamPoints: 38, opponentPoints: 20},
         {opponent: "Vikings", teamPoints: 24, opponentPoints: 10}
     ]
+    get players() {
+        return team._players
+      }
+    
+    get games() {
+        return team._games
+    }
 };
 
-get players() {
-    return team._players
-  }
-
-get games() {
-    return team._games
-}
