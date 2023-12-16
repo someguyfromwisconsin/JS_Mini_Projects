@@ -32,3 +32,4 @@ const team = {
         },
 };
 
+team.addPlayer("Bugs", "Bunny", 76);
