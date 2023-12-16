@@ -20,3 +20,7 @@ const team = {
 get players() {
     return team._players
   }
+
+get games() {
+    return team._games
+}
