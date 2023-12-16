@@ -30,6 +30,14 @@ const team = {
           };
         this._players.push(newPlayer);
         },
+    addGame(newOpponent, newTeamPoints, newOpponentPoints) {
+        const newGame = {
+            opponent: newOpponent,
+            teamPoints: newTeamPoints,
+            opponentPoints: newOpponentPoints
+        };
+        this._games.push(newGame);
+        }
 };
 
 team.addPlayer("Bugs", "Bunny", 76);
