@@ -16,3 +16,7 @@ const team = {
         {opponent: "Vikings", teamPoints: 24, opponentPoints: 10}
     ]
 };
+
+get players() {
+    return team._players
+  }
