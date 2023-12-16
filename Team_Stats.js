@@ -5,6 +5,10 @@ After we create these data structures in this project, feel free to challenge yo
 */
 
 const team = {
-    _players: [],
+    _players: [
+        {firstName: "Jordan", lastName: "Bravo", age: 25},
+        {firstName: "AJ", lastName: "Dillon", age: 25},
+        {firstName: "Jon", lastName: "Runyan", age: 26}
+  ],
     _games: []
 };
