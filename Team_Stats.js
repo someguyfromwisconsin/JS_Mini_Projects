@@ -10,5 +10,9 @@ const team = {
         {firstName: "AJ", lastName: "Dillon", age: 25},
         {firstName: "Jon", lastName: "Runyan", age: 26}
   ],
-    _games: []
+    _games: [
+        {opponent: "Lions", teamPoints: 29, opponentPoints: 22},
+        {opponent: "Bears", teamPoints: 38, opponentPoints: 20},
+        {opponent: "Vikings", teamPoints: 24, opponentPoints: 10}
+    ]
 };
