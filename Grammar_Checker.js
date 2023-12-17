@@ -26,4 +26,12 @@ storyWords = storyWords.filter(function(word) {
     return word !== unnecessaryWord;
 })
 
+storyWords = storyWords.map((word) => {
+    if (word === misspelledWord) {
+      return "beautiful";
+    } else {
+        return word;
+    }
+});
+
 console.log(storyWords.join(" "));
