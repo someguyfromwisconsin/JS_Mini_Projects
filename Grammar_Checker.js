@@ -15,5 +15,8 @@ let misspelledWord = 'beautifull';
 let badWord = 'freaking';
 
 let count = 0;
+storyWords.forEach(function(word) {
+    // enter code
+  });
 
 console.log(storyWords.join(" "));
