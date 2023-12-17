@@ -22,7 +22,7 @@ storyWords.forEach(function(word) {
       }
 });
 
-storyWords.filter(function(word) {
+storyWords = storyWords.filter(function(word) {
   
 })
 
