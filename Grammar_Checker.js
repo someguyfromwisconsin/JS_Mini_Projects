@@ -23,7 +23,7 @@ storyWords.forEach(function(word) {
 });
 
 storyWords = storyWords.filter(function(word) {
-  
+    return word !== unnecessaryWord;
 })
 
 console.log(storyWords.join(" "));
