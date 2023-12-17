@@ -34,4 +34,8 @@ storyWords = storyWords.map((word) => {
     }
 });
 
+let badWordIndex = storyWords.findIndex(function(word) {
+    return word === badWord;
+});
+
 console.log(storyWords.join(" "));
