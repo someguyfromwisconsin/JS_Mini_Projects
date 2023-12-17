@@ -42,4 +42,8 @@ if (badWordIndex !== true) {
     storyWords[badWordIndex] = "really";
 };
 
+let lengthCheck = storyWords.every(function(word) {
+    return word.length <= 10;
+});
+
 console.log(storyWords.join(" "));
