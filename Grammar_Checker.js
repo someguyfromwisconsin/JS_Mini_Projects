@@ -38,4 +38,8 @@ let badWordIndex = storyWords.findIndex(function(word) {
     return word === badWord;
 });
 
+if (badWordIndex !== true) {
+    storyWords[badWordIndex] = "really";
+};
+
 console.log(storyWords.join(" "));
